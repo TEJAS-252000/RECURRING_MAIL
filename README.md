@@ -48,6 +48,9 @@ The features of application are
  
  ● Mails scheduled for future can be seen from the recurring app and also has the edit option to change the scheduled time.
  
+ Documentation link
+ 
+ https://drive.google.com/file/d/1IYTDyk3r3zY7m-hMf600874kBNFYfDr9/view?usp=sharing
  
  
  
