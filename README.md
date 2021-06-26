@@ -33,7 +33,7 @@ The purpose of recurring mailings is to re-send the same email to either the sam
 *****************************************
 Problem Statement
 *****************************************
-The proble statement was to build a mobile application where users can login and send recurring mails to the
+The problem statement was to build a mobile application where users can login and send recurring mails to the
 recipients. 
 
 ****************************************
