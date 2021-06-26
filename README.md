@@ -46,7 +46,7 @@ The features of application are
  
  ● Create/Edit the mail features.
  
- ● Mails scheduled for future can be seen from the calender and also has the edit option to change the scheduled time.
+ ● Mails scheduled for future can be seen from the recurring app and also has the edit option to change the scheduled time.
  
  
  
