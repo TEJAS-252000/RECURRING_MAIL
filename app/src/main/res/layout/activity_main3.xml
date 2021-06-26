@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="419dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="522dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login" />
+
+    <EditText
+        android:id="@+id/passsignin"
+        android:layout_width="311dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="47dp"
+        android:ems="10"
+        android:hint="ENTER PASSWORD"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/registration_btn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin_btn" />
+
+    <EditText
+        android:id="@+id/signin_btn"
+        android:layout_width="311dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="ENTER EMAIL ID"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/passsignin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/registration_btn1"
+        android:layout_width="296dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="232dp"
+        android:text="SIGN_IN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passsignin" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="144dp"
+        android:text="Not Registered yet? Sign Up"
+        android:textColor="#FF9800"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registration_btn1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

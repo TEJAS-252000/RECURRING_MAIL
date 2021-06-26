@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "642305044019",
+    "project_id": "recurring-mail-a7ec9",
+    "storage_bucket": "recurring-mail-a7ec9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642305044019:android:050a5aee57e07784ee7d46",
+        "android_client_info": {
+          "package_name": "com.example.recurring_mail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642305044019-n2vm5jslhvb1kmgc4kl3uid7cg3ou7rp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFKmP2zOJn7f5YhK-7m47tofRIuG8gXgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642305044019-n2vm5jslhvb1kmgc4kl3uid7cg3ou7rp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
